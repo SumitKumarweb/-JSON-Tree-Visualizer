@@ -142,6 +142,17 @@
     font-size: small;
   }
 
+  /* PreviewTreeVisualizer css */
+
+  #PreviewTreeVisualizer {
+    position: relative;
+    background-color: var(--textarea-bg, #f8f9fa);
+  }
+
+  #PreviewTreeVisualizer .react-flow {
+    background-color: transparent;
+  }
+
   /* common css */
 
   .btn{

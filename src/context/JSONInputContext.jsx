@@ -4,9 +4,6 @@ const JSONInputContext = createContext()
 
 export const useJSONInput = () => {
   const context = useContext(JSONInputContext)
-  if (!context) {
-    throw new Error('useJSONInput must be used within JSONInputProvider')
-  }
   return context
 }
 
